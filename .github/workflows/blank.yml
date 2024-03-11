@@ -10,7 +10,7 @@ on:
       IMG_URL:
         description: 'IMG_URL'
         required: true
-        default: 'https://github.com/momo54181/action_build_twrp_device_tree/blob/main/recovery.img'
+        default: 'https://github.com/1915007283/a928w/blob/main/recovery.img'
 
 jobs:
   build:
@@ -24,7 +24,7 @@ jobs:
     - name: Prepare the environment
       run: |
         sudo apt update
-        sudo apt -y install python python2 python2-pip python2-pip cpio wget
+        sudo apt -y install python python python-pip python-pip cpio wget
       
     - name: Set variables
       run: |
